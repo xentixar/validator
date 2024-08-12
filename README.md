@@ -24,6 +24,7 @@ Before using the validator, you'll need to set up configuration files.
 Run the following command to publish the default configuration files to your project:
 
 ```sh
+cd vendor/xentixar/validator/bin
 php xentixar publish:config
 ```
 
