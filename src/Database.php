@@ -22,8 +22,8 @@ class Database
 
     private static function getConfigurations(): array
     {
-        if (file_exists(__DIR__ . "/../../../config/vendor/validator/database.php")) {
-            return require_once __DIR__ . "/../../../config/vendor/validator/database.php";
+        if (file_exists(__DIR__ . "/../../../../config/vendor/validator/database.php")) {
+            return require_once __DIR__ . "/../../../../config/vendor/validator/database.php";
         } else {
             return require_once __DIR__ . "/../config/database.php";
         }

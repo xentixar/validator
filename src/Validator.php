@@ -16,8 +16,8 @@ class Validator
 
     private function getMessages(): array
     {
-        if (file_exists(__DIR__ . "/../../../config/vendor/validator/messages.php")) {
-            return require_once __DIR__ . "/../../../config/vendor/validator/messages.php";
+        if (file_exists(__DIR__ . "/../../../../config/vendor/validator/messages.php")) {
+            return require_once __DIR__ . "/../../../../config/vendor/validator/messages.php";
         } else {
             return require_once __DIR__ . "/../config/messages.php";
         }
